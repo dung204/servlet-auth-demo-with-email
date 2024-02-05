@@ -98,9 +98,11 @@
         <plugin>
           <artifactId>maven-war-plugin</artifactId>
           <version>3.2.2</version>
-          <configuration>
-            <warName>demo</warName>
-          </configuration>
+          <!-- FIXME: uncomment the configuration below and change the value of warName to change
+          the context path -->
+          <!-- <configuration>
+            <warName>servlet-auth-demo-with-email</warName>
+          </configuration> -->
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>

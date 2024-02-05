@@ -14,12 +14,13 @@ import jakarta.mail.internet.InternetAddress;
 import jakarta.mail.internet.MimeMessage;
 
 public final class MailService {
-  private static final String EMAIL_FROM = "acezombiev4@gmail.com";
-  private static final String PASSWORD = "hFqTbnJCpxy9Ys1m";
-  private static final String SMTP_HOST = "smtp-relay.brevo.com";
-  private static final int PORT = 587;
-  private static final Logger logger = Logger.getLogger(MailService.class.getName());
+  // TODO: replace with your own email, password, SMTP server, and port
+  private static final String EMAIL_FROM = "your-email-from-here";
+  private static final String PASSWORD = "your-password-here";
+  private static final String SMTP_HOST = "your-smtp-server-here";
+  private static final int PORT = 12345;
 
+  private static final Logger logger = Logger.getLogger(MailService.class.getName());
   private static Session session = null;
   private static MailService instance = null;
 

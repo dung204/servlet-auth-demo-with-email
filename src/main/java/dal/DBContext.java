@@ -13,11 +13,13 @@ public final class DBContext {
 
   private DBContext() {
     try {
-      String user = "sa";
-      String password = "anhdung";
-      String dbName = "VSCodeDemo";
-      String serverName = "localhost";
-      int portNumber = 1433;
+      // TODO: replace below with your own SQL Server database URL, username, and
+      // password
+      String user = "your-user";
+      String password = "your-password";
+      String dbName = "your-database-name";
+      String serverName = "your-server-name";
+      int portNumber = 12345;
 
       String url = String.format("jdbc:sqlserver://%s:%s;databaseName=%s;encrypt=true;trustServerCertificate=true",
           serverName, portNumber, dbName);
