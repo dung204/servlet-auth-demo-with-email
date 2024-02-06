@@ -17,7 +17,7 @@ public final class DBContext {
       // password
       String user = "your-user";
       String password = "your-password";
-      String dbName = "your-database-name";
+      String dbName = "AuthDemo";
       String serverName = "your-server-name";
       int portNumber = 12345;
 
