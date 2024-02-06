@@ -87,7 +87,7 @@ mvn clean package
 
 ### 3.5 Deploy the WAR file to Tomcat
 
-> **⚠️ Note**: If you are using a Java preferred IDE (Netbeans, Eclipse, IntelliJ IDEA), you can skip this step and go to [2.4. Context Path](#24-context-path).
+> **⚠️ Note**: If you are using a Java preferred IDE (Netbeans, Eclipse, IntelliJ IDEA), you can skip this step and go to [3.6. Context Path](#36-context-path).
 
 #### 3.5.1 Using Tomcat Web Application Manager
 
